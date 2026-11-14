@@ -1,0 +1,33 @@
+{
+  "countryName": {
+    "AUS": "Australia",
+    "BRN": "Brunei",
+    "IDN": "Indonesia",
+    "JPN": "Japan",
+    "KHM": "Cambodia",
+    "KOR": "South Korea",
+    "LAO": "Laos",
+    "MMR": "Myanmar",
+    "MNG": "Mongolia",
+    "MYS": "Malaysia",
+    "NZL": "New Zealand",
+    "PHL": "Philippines",
+    "SGP": "Singapore",
+    "THA": "Thailand",
+    "TLS": "Timor-Leste",
+    "TWN": "Taiwan",
+    "VNM": "Vietnam",
+    "ZZZ": "unknown"
+  },
+  "organizations": [
+    {
+      "id": "161",
+      "country": "IDN",
+      "name": "BINUS",
+      "formal_name": "BINUS University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    }
+  ]
+}

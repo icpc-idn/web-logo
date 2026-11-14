@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <title>University Logo | ICPC Indonesia</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <style>
+    .newspaper-columns {
+      column-count: 1;
+      column-gap: 1.5rem;
+    }
+
+    @media (min-width: 576px) {
+      .newspaper-columns {
+        column-count: 2;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .newspaper-columns {
+        column-count: 3;
+      }
+    }
+
+    .newspaper-columns li {
+      break-inside: avoid;
+    }
+  </style>
+</head>
+
+<body>
+<h1 class="m-3 text-center">University Logo Collection</h1>
+
+<div class="container mb-3 text-center">
+  Find your university name below and verify the logo<br />
+  If your university logo is incorrect, please
+  <a href="#" data-bs-toggle="modal" data-bs-target="#previewModal">preview your image file</a>
+  before contacting us
+</div>
+
+<div id="logoList" class="container">
+  No data available
+</div>
+
+<!-- preview modal -->
+
+<div class="modal modal-lg fade" id="previewModal" tabindex="-1" aria-labelledby="previewModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="previewModalLabel">Preview Logo</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container mb-3">
+          <div class="container alert alert-info">
+            This is a preview mode. Selected files will only be displayed here and will not leave your browser.
+          </div>
+          <input type="file" id="previewInput" class="form-control" accept="image/*" placeholder="Upload your logo">
+        </div>
+
+        <div class="container" id="previewModalContent">
+          Loading...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- logo modal -->
+
+<div class="modal modal-lg fade" id="logoModal" tabindex="-1" aria-labelledby="logoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="logoModalLabel">Loading university name...</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center" id="logoModalContent">
+        Loading...
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const maxLogoFilesize = "200 KB";
+  const smallestImage = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("previewModalContent").innerHTML = renderMetaAndLogoWithBackgrounds(smallestImage, [
+      {"key": "MIME Type", "value": "- (prefer in SVG format)"},
+      {"key": "File size", "value": `- (prefer to keep it under ${maxLogoFilesize})`},
+      {"key": "Last modified", "value": "-"},
+    ]);
+
+    fetch("data.json")
+      .then(data => data.json())
+      .then(data => {
+        const { countryName, organizations } = data;
+        const orgsByCountry = Object.groupBy(organizations, ({ country }) => country);
+
+        const logoList = document.getElementById("logoList");
+        logoList.innerHTML = "";
+
+        Object.entries(orgsByCountry)
+          .sort(([lhsKey], [rhsKey]) => countryName[lhsKey].localeCompare(countryName[rhsKey]))
+          .forEach(([code, row]) => {
+          const groupName = document.createElement("h3");
+          groupName.textContent = countryName[code];
+          logoList.appendChild(groupName);
+
+          const groupEntries = document.createElement("ul");
+          groupEntries.className = "newspaper-columns";
+
+          row
+            .sort((lhs, rhs) => lhs.formal_name.localeCompare(rhs.formal_name))
+            .forEach(org => {
+              org.img = (org.imgext ?? "") === "" ? "" : `./university/${org.id}.${org.imgext}`;
+              org.imgtype = org.imgext;
+              delete org.imgext;
+
+              if (org.synced) {
+                org.img = `https://icpc.global/api/contest/public/institutionLogo/${org.id}/download`;
+                org.imgsource = "ICPC Global";
+              }
+
+              const orgEntry = document.createElement("li");
+              orgEntry.textContent = `${org.formal_name} (no data)`;
+
+              if (org.img !== "") {
+                const orgA = document.createElement("a");
+                orgA.textContent = org.formal_name;
+                orgA.setAttribute("href", "#");
+                orgA.setAttribute("data-bs-toggle", "modal");
+                orgA.setAttribute("data-bs-target", "#logoModal");
+
+                Object.entries(org).forEach(([key, value]) => {
+                  orgA.setAttribute(`data-custom-${key}`, value);
+                });
+
+                orgEntry.innerHTML = orgA.outerHTML + (org.synced ? " (synced)" : "");
+              }
+
+              groupEntries.appendChild(orgEntry);
+            });
+
+          logoList.appendChild(groupEntries);
+        });
+      });
+  });
+
+  // register event listener to view logo
+  const userModal = document.getElementById("logoModal");
+  userModal.addEventListener("show.bs.modal", function (event) {
+    const org = Object.assign({}, ...(Array.from(event.relatedTarget.attributes)
+      .filter(attr => attr.name.startsWith('data-custom-'))
+      .map(attr => ({ [attr.name.slice("data-custom-".length)]: attr.value }))));
+
+    const modalTitle = userModal.querySelector("#logoModalLabel");
+    const modalBody = userModal.querySelector("#logoModalContent");
+
+    modalTitle.textContent = `${org.formal_name} (#${org.id})`;
+    modalBody.innerHTML = renderMetaAndLogoWithBackgrounds(org.img, [
+      {"key": "Short name", "value": `<code>${org.name}</code>` || "-"},
+      {"key": "MIME Type", "value": org.imgtype || "Unknown"},
+      {"key": "Image Source", "value": org.imgsource},
+      {"key": "Synced to ICPC Global", "value": org.synced},
+      {"key": "Original image", "value": `<a href="${org.img}" target="blank">click here</a>` || "-"},
+    ]);
+  });
+
+  // preview image file
+  const previewInput = document.getElementById("previewInput");
+  previewInput.addEventListener("change", function (event) {
+    const file = event.target.files[0];
+    if (!file) {
+      return;
+    }
+
+    const url = URL.createObjectURL(file);
+    const sizeInKB = (file.size / 1024).toFixed(2);
+    const lastModified = new Date(file.lastModified).toLocaleString();
+
+    const modalBody = document.getElementById("previewModalContent");
+    modalBody.innerHTML = renderMetaAndLogoWithBackgrounds(url, [
+      {"key": "MIME Type", "value": `${file.type || "Unknown"} (prefer in SVG format)`},
+      {"key": "File size", "value": `${sizeInKB} KB (prefer to keep it under ${maxLogoFilesize})`},
+      {"key": "Last modified", "value": lastModified},
+    ]);
+  });
+
+  function renderMetaAndLogoWithBackgrounds(src, meta) {
+    return `
+      <div class="container text-start">
+        <ul>
+          ${ meta.map(({key, value}) => `<li>${key}: ${value}</li>`).join("") }
+        </ul>
+      </div>
+      <div class="container-fluid justify-content-center mx-0 py-0 row gx-2 gy-2">
+        <div class="col-8 col-sm-6">
+          <div class="border border-dark m-1 p-2 bg-light" style="aspect-ratio: 1/1;">
+            <img class="w-100 h-100 object-fit-contain" src="${src}" />
+          </div>
+          <div class="text-center">Light background</div>
+        </div>
+        <div class="col-8 col-sm-6">
+          <div class="border border-dark m-1 p-2 bg-dark" style="aspect-ratio: 1/1;">
+            <img class="w-100 h-100 object-fit-contain" src="${src}" />
+          </div>
+          <div class="text-center">Dark background</div>
+        </div>
+      </div>
+    `;
+  }
+</script>
+</body>
+
+</html>
