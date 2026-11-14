@@ -28,6 +28,483 @@
       "imgext": "svg",
       "imgsource": "ICPC Global",
       "synced": false
+    },
+    {
+      "id": "626",
+      "country": "IDN",
+      "name": "Gunadarma",
+      "formal_name": "Gunadarma University",
+      "imgext": "png",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1426",
+      "country": "IDN",
+      "name": "Unpar",
+      "formal_name": "Parahyangan University",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "2390",
+      "country": "IDN",
+      "name": "UI",
+      "formal_name": "Universitas Indonesia",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "2972",
+      "country": "IDN",
+      "name": "",
+      "formal_name": "Universitas Pelita Harapan",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "3001",
+      "country": "IDN",
+      "name": "",
+      "formal_name": "Institut Pertanian Bogor",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "3002",
+      "country": "IDN",
+      "name": "",
+      "formal_name": "Politeknik Negeri Bandung",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "3003",
+      "country": "IDN",
+      "name": "U Padjadjaran",
+      "formal_name": "University of Padjadjaran",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "3008",
+      "country": "IDN",
+      "name": "PU",
+      "formal_name": "President University",
+      "imgext": "jpg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3010",
+      "country": "IDN",
+      "name": "",
+      "formal_name": "Institut Teknologi Sepuluh Nopember",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "3023",
+      "country": "IDN",
+      "name": "UGM",
+      "formal_name": "Universitas Gadjah Mada",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3031",
+      "country": "IDN",
+      "name": "STMIK",
+      "formal_name": "Universitas Mikroskil",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "3032",
+      "country": "IDN",
+      "name": "",
+      "formal_name": "Budi Luhur University",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "3816",
+      "country": "IDN",
+      "name": "ITB",
+      "formal_name": "Institut Teknologi Bandung",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3870",
+      "country": "IDN",
+      "name": "",
+      "formal_name": "Universitas Multimedia Nusantara",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "4224",
+      "country": "IDN",
+      "name": "",
+      "formal_name": "Brawijaya University",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "6974",
+      "country": "IDN",
+      "name": "Tel-U",
+      "formal_name": "Telkom University",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "7013",
+      "country": "IDN",
+      "name": "UNDIP",
+      "formal_name": "Universitas Diponegoro",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "7034",
+      "country": "IDN",
+      "name": "UNS",
+      "formal_name": "Sebelas Maret University",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "7260",
+      "country": "IDN",
+      "name": "IT Del",
+      "formal_name": "Institut Teknologi Del",
+      "imgext": "jpg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "7653",
+      "country": "IDN",
+      "name": "UNAIR",
+      "formal_name": "Universitas Airlangga",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "7673",
+      "country": "IDN",
+      "name": "UNTAN",
+      "formal_name": "Universitas Tanjungpura",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "8214",
+      "country": "IDN",
+      "name": "UPNVYK",
+      "formal_name": "Universitas Pembangunan Nasional \"Veteran\" Yogyakarta",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "8400",
+      "country": "IDN",
+      "name": "UPI",
+      "formal_name": "Universitas Pendidikan Indonesia",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "8406",
+      "country": "IDN",
+      "name": "UNHAS",
+      "formal_name": "Universitas Hasanuddin",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "8700",
+      "country": "IDN",
+      "name": "UNUD",
+      "formal_name": "Universitas Udayana",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "11077",
+      "country": "IDN",
+      "name": "IDU",
+      "formal_name": "Indonesia Defense University",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "13031",
+      "country": "IDN",
+      "name": "UNSOED",
+      "formal_name": "Universitas Jenderal Soedirman",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "13719",
+      "country": "IDN",
+      "name": "CIT",
+      "formal_name": "Calvin Institute of Technology",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "26549",
+      "country": "IDN",
+      "name": "UNSRAT",
+      "formal_name": "Sam Ratulangi University",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "275",
+      "country": "TWN",
+      "name": "NYCU",
+      "formal_name": "National Yang Ming Chiao Tung University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "637",
+      "country": "KOR",
+      "name": "Hanyang U",
+      "formal_name": "Hanyang University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1025",
+      "country": "KOR",
+      "name": "KAIST",
+      "formal_name": "KAIST",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1276",
+      "country": "SGP",
+      "name": "Nanyang TU",
+      "formal_name": "Nanyang Technological University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1282",
+      "country": "TWN",
+      "name": "NCKU",
+      "formal_name": "National Cheng Kung University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1302",
+      "country": "TWN",
+      "name": "NTOU",
+      "formal_name": "National Taiwan Ocean University",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
+    },
+    {
+      "id": "1303",
+      "country": "TWN",
+      "name": "National Taiwan U",
+      "formal_name": "National Taiwan University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1308",
+      "country": "TWN",
+      "name": "NTHU",
+      "formal_name": "National Tsing Hua University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1316",
+      "country": "SGP",
+      "name": "NUS",
+      "formal_name": "National University of Singapore",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1465",
+      "country": "KOR",
+      "name": "POSTECH",
+      "formal_name": "Pohang University of Science and Technology",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1636",
+      "country": "KOR",
+      "name": "Seoul National U",
+      "formal_name": "Seoul National University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "1730",
+      "country": "KOR",
+      "name": "Sogang U",
+      "formal_name": "Sogang University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3514",
+      "country": "THA",
+      "name": "Chulalongkorn U",
+      "formal_name": "Chulalongkorn University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3638",
+      "country": "VNM",
+      "name": "HCMUT",
+      "formal_name": "Ho Chi Minh City University of Technology",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3663",
+      "country": "VNM",
+      "name": "UET - VNU",
+      "formal_name": "University of Engineering and Technology - VNU",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3682",
+      "country": "VNM",
+      "name": "FPT Uni",
+      "formal_name": "FPT University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3699",
+      "country": "VNM",
+      "name": "DUT",
+      "formal_name": "University of Science and Technology - The University of Danang",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3705",
+      "country": "VNM",
+      "name": "VNUHCM-US",
+      "formal_name": "University of Science, VNU-HCM",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "3728",
+      "country": "VNM",
+      "name": "PTIT",
+      "formal_name": "Posts and Telecommunications Institute of Technology, HN",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "4242",
+      "country": "VNM",
+      "name": "VNUHCM UIT",
+      "formal_name": "University of Information Technology - Vietnam National University HCM",
+      "imgext": "png",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "5318",
+      "country": "VNM",
+      "name": "NEU",
+      "formal_name": "National Economics University",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "9176",
+      "country": "SGP",
+      "name": "SUTD",
+      "formal_name": "Singapore University of Technology and Design",
+      "imgext": "png",
+      "imgsource": "Previous ICPC Asia Jakarta",
+      "synced": false
+    },
+    {
+      "id": "10031",
+      "country": "MYS",
+      "name": "XUM",
+      "formal_name": "Xiamen University Malaysia",
+      "imgext": "svg",
+      "imgsource": "ICPC Global",
+      "synced": false
+    },
+    {
+      "id": "10922",
+      "country": "VNM",
+      "name": "VinUni",
+      "formal_name": "VinUniversity",
+      "imgext": "",
+      "imgsource": "",
+      "synced": false
     }
   ]
 }
