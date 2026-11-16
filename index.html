@@ -32,6 +32,40 @@
     .newspaper-columns li {
       break-inside: avoid;
     }
+
+    .dj-scoreboard {
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .dj-scoretn {
+      padding: 0 5px 0;
+      text-align: right;
+      font-weight: bold;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: small;
+    }
+
+    .dj-force-width {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      max-width: 250px;
+    }
+
+    @media (min-width: 576px) {
+      .dj-force-width {
+        max-width: 350px;
+      }
+    }
+
+    .dj-univ {
+      font-size: 80%;
+      font-weight: normal;
+      color: dimgrey;
+    }
   </style>
 </head>
 
@@ -92,14 +126,22 @@
 
 <script>
   const maxLogoFilesize = "200 KB";
-  const smallestImage = "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+  const smallestImage = `data:image/svg+xml,
+    %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='50' height='50'%3E
+      %3Cpath stroke='grey' stroke-width='1' d='M24 0L0 24M0 0l24 24'/%3E
+    %3C/svg%3E
+  `;
 
   document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("previewModalContent").innerHTML = renderMetaAndLogoWithBackgrounds(smallestImage, [
-      {"key": "MIME Type", "value": "- (prefer in SVG format)"},
-      {"key": "File size", "value": `- (prefer to keep it under ${maxLogoFilesize})`},
-      {"key": "Last modified", "value": "-"},
-    ]);
+    document.getElementById("previewModalContent").innerHTML = renderMetaAndLogoWithBackgrounds(
+      smallestImage,
+      "University Name",
+      [
+        {"key": "MIME Type", "value": "- (prefer in SVG format)"},
+        {"key": "File size", "value": `- (prefer to keep it under ${maxLogoFilesize})`},
+        {"key": "Last modified", "value": "-"},
+      ],
+    );
 
     fetch("data.json")
       .then(data => data.json())
@@ -168,7 +210,7 @@
     const modalBody = userModal.querySelector("#logoModalContent");
 
     modalTitle.textContent = `${org.formal_name} (#${org.id})`;
-    modalBody.innerHTML = renderMetaAndLogoWithBackgrounds(org.img, [
+    modalBody.innerHTML = renderMetaAndLogoWithBackgrounds(org.img, org.formal_name, [
       {"key": "Short name", "value": `<code>${org.name}</code>` || "-"},
       {"key": "MIME Type", "value": org.imgtype || "Unknown"},
       {"key": "Image Source", "value": org.imgsource},
@@ -190,19 +232,41 @@
     const lastModified = new Date(file.lastModified).toLocaleString();
 
     const modalBody = document.getElementById("previewModalContent");
-    modalBody.innerHTML = renderMetaAndLogoWithBackgrounds(url, [
+    modalBody.innerHTML = renderMetaAndLogoWithBackgrounds(url, "University Name", [
       {"key": "MIME Type", "value": `${file.type || "Unknown"} (prefer in SVG format)`},
       {"key": "File size", "value": `${sizeInKB} KB (prefer to keep it under ${maxLogoFilesize})`},
       {"key": "Last modified", "value": lastModified},
     ]);
   });
 
-  function renderMetaAndLogoWithBackgrounds(src, meta) {
+  function renderMetaAndLogoWithBackgrounds(src, uniName, meta) {
     return `
       <div class="container text-start">
         <ul>
           ${ meta.map(({key, value}) => `<li>${key}: ${value}</li>`).join("") }
         </ul>
+      </div>
+      <div class="container mx-0 px-0 my-2">
+        <table class="mx-auto dj-scoreboard">
+          <thead>
+            <tr>
+              <th style="border-right: 1px solid silver;">RANK</th>
+              <th colspan="2">TEAM</th>
+            </tr>
+          </thead>
+          <tbody style="border-style: solid black; border-width: 2px 0;">
+            <tr style="height: 42px;">
+              <td style="border-right: 1px solid silver;">?</td>
+              <td class="px-1">
+                <img style="max-width: 32px; max-height: 32px;" src="${src}" />
+              </td>
+              <td class="px-1 text-end">
+                <span class="dj-scoretn dj-force-width">Preview in DOMjudge-style scoreboard</span>
+                <span class="dj-scoretn dj-force-width dj-univ">${uniName}</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div class="container-fluid justify-content-center mx-0 py-0 row gx-2 gy-2">
         <div class="col-8 col-sm-6">
