@@ -27,6 +27,7 @@
       "formal_name": "BINUS University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -36,6 +37,7 @@
       "formal_name": "Gunadarma University",
       "imgext": "png",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -45,6 +47,7 @@
       "formal_name": "Parahyangan University",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -54,6 +57,7 @@
       "formal_name": "Universitas Indonesia",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -63,6 +67,7 @@
       "formal_name": "Universitas Pelita Harapan",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -72,6 +77,7 @@
       "formal_name": "Institut Pertanian Bogor",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -81,6 +87,7 @@
       "formal_name": "Politeknik Negeri Bandung",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -90,6 +97,7 @@
       "formal_name": "University of Padjadjaran",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -99,6 +107,7 @@
       "formal_name": "President University",
       "imgext": "jpg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -108,6 +117,7 @@
       "formal_name": "Institut Teknologi Sepuluh Nopember",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -117,6 +127,7 @@
       "formal_name": "Universitas Gadjah Mada",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -126,6 +137,7 @@
       "formal_name": "Universitas Mikroskil",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -135,6 +147,7 @@
       "formal_name": "Budi Luhur University",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -144,6 +157,7 @@
       "formal_name": "Institut Teknologi Bandung",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -153,6 +167,7 @@
       "formal_name": "Universitas Multimedia Nusantara",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -162,6 +177,7 @@
       "formal_name": "Brawijaya University",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -171,6 +187,7 @@
       "formal_name": "Telkom University",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -180,6 +197,7 @@
       "formal_name": "Universitas Diponegoro",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -189,6 +207,7 @@
       "formal_name": "Sebelas Maret University",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -198,6 +217,7 @@
       "formal_name": "Institut Teknologi Del",
       "imgext": "jpg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -207,6 +227,7 @@
       "formal_name": "Universitas Airlangga",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -216,6 +237,7 @@
       "formal_name": "Universitas Tanjungpura",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -225,6 +247,7 @@
       "formal_name": "Universitas Pembangunan Nasional \"Veteran\" Yogyakarta",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -234,6 +257,7 @@
       "formal_name": "Universitas Pendidikan Indonesia",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -243,6 +267,7 @@
       "formal_name": "Universitas Hasanuddin",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -252,6 +277,7 @@
       "formal_name": "Universitas Udayana",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -261,6 +287,7 @@
       "formal_name": "Indonesia Defense University",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -270,6 +297,7 @@
       "formal_name": "Universitas Jenderal Soedirman",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -279,6 +307,7 @@
       "formal_name": "Calvin Institute of Technology",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -288,6 +317,7 @@
       "formal_name": "Sam Ratulangi University",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -297,6 +327,7 @@
       "formal_name": "National Yang Ming Chiao Tung University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -306,6 +337,7 @@
       "formal_name": "Hanyang University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -315,6 +347,7 @@
       "formal_name": "KAIST",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -324,6 +357,7 @@
       "formal_name": "Nanyang Technological University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -333,6 +367,7 @@
       "formal_name": "National Cheng Kung University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -342,6 +377,7 @@
       "formal_name": "National Taiwan Ocean University",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     },
     {
@@ -351,6 +387,7 @@
       "formal_name": "National Taiwan University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -360,6 +397,7 @@
       "formal_name": "National Tsing Hua University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -369,6 +407,7 @@
       "formal_name": "National University of Singapore",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -378,6 +417,7 @@
       "formal_name": "Pohang University of Science and Technology",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -387,6 +427,7 @@
       "formal_name": "Seoul National University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -396,6 +437,7 @@
       "formal_name": "Sogang University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -405,6 +447,7 @@
       "formal_name": "Chulalongkorn University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -414,6 +457,7 @@
       "formal_name": "Ho Chi Minh City University of Technology",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -423,6 +467,7 @@
       "formal_name": "University of Engineering and Technology - VNU",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -432,6 +477,7 @@
       "formal_name": "FPT University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -441,6 +487,7 @@
       "formal_name": "University of Science and Technology - The University of Danang",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -450,6 +497,7 @@
       "formal_name": "University of Science, VNU-HCM",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -459,6 +507,7 @@
       "formal_name": "Posts and Telecommunications Institute of Technology, HN",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -468,6 +517,7 @@
       "formal_name": "University of Information Technology - Vietnam National University HCM",
       "imgext": "png",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -477,6 +527,7 @@
       "formal_name": "National Economics University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -486,6 +537,7 @@
       "formal_name": "Singapore University of Technology and Design",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
+      "verified": false,
       "synced": false
     },
     {
@@ -495,6 +547,7 @@
       "formal_name": "Xiamen University Malaysia",
       "imgext": "svg",
       "imgsource": "ICPC Global",
+      "verified": false,
       "synced": false
     },
     {
@@ -504,6 +557,7 @@
       "formal_name": "VinUniversity",
       "imgext": "",
       "imgsource": "",
+      "verified": false,
       "synced": false
     }
   ]
