@@ -47,7 +47,7 @@
       "formal_name": "Parahyangan University",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -57,7 +57,7 @@
       "formal_name": "Universitas Indonesia",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -67,7 +67,7 @@
       "formal_name": "Universitas Pelita Harapan",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -97,7 +97,7 @@
       "formal_name": "University of Padjadjaran",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -136,7 +136,7 @@
       "name": "STMIK",
       "formal_name": "Universitas Mikroskil",
       "imgext": "png",
-      "imgsource": "Previous ICPC Asia Jakarta",
+      "imgsource": "ICPC Asia Jakarta 2026",
       "verified": false,
       "synced": false
     },
@@ -175,8 +175,8 @@
       "country": "IDN",
       "name": "",
       "formal_name": "Brawijaya University",
-      "imgext": "",
-      "imgsource": "",
+      "imgext": "png",
+      "imgsource": "ICPC Asia Jakarta 2026 (resized)",
       "verified": false,
       "synced": false
     },
@@ -195,8 +195,8 @@
       "country": "IDN",
       "name": "UNDIP",
       "formal_name": "Universitas Diponegoro",
-      "imgext": "",
-      "imgsource": "",
+      "imgext": "png",
+      "imgsource": "ICPC Asia Jakarta 2026 (resized)",
       "verified": false,
       "synced": false
     },
@@ -237,7 +237,7 @@
       "formal_name": "Universitas Tanjungpura",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -265,8 +265,8 @@
       "country": "IDN",
       "name": "UNHAS",
       "formal_name": "Universitas Hasanuddin",
-      "imgext": "",
-      "imgsource": "",
+      "imgext": "png",
+      "imgsource": "ICPC Asia Jakarta 2026 (resized)",
       "verified": false,
       "synced": false
     },
@@ -317,7 +317,7 @@
       "formal_name": "Sam Ratulangi University",
       "imgext": "png",
       "imgsource": "Previous ICPC Asia Jakarta",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -337,7 +337,7 @@
       "formal_name": "Hanyang University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -357,7 +357,7 @@
       "formal_name": "Nanyang Technological University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -367,7 +367,7 @@
       "formal_name": "National Cheng Kung University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -397,7 +397,7 @@
       "formal_name": "National Tsing Hua University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -407,7 +407,7 @@
       "formal_name": "National University of Singapore",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -417,7 +417,7 @@
       "formal_name": "Pohang University of Science and Technology",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -457,7 +457,7 @@
       "formal_name": "Ho Chi Minh City University of Technology",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -475,8 +475,8 @@
       "country": "VNM",
       "name": "FPT Uni",
       "formal_name": "FPT University",
-      "imgext": "svg",
-      "imgsource": "ICPC Global",
+      "imgext": "jpg",
+      "imgsource": "ICPC Asia Jakarta 2026",
       "verified": false,
       "synced": false
     },
@@ -487,7 +487,7 @@
       "formal_name": "University of Science and Technology - The University of Danang",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -497,7 +497,7 @@
       "formal_name": "University of Science, VNU-HCM",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -507,7 +507,7 @@
       "formal_name": "Posts and Telecommunications Institute of Technology, HN",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
@@ -527,7 +527,7 @@
       "formal_name": "National Economics University",
       "imgext": "svg",
       "imgsource": "ICPC Global",
-      "verified": false,
+      "verified": true,
       "synced": false
     },
     {
