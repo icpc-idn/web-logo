@@ -85,8 +85,8 @@
       "country": "IDN",
       "name": "",
       "formal_name": "Politeknik Negeri Bandung",
-      "imgext": "",
-      "imgsource": "",
+      "imgext": "webp",
+      "imgsource": "ICPC Asia Jakarta 2026 Committee (resized)",
       "verified": false,
       "synced": false
     },
@@ -126,7 +126,7 @@
       "name": "UGM",
       "formal_name": "Universitas Gadjah Mada",
       "imgext": "png",
-      "imgsource": "ICPC Asia Jakarta 2026 (resized)",
+      "imgsource": "ICPC Asia Jakarta 2026 Committee (resized)",
       "verified": false,
       "synced": false
     },
@@ -255,8 +255,8 @@
       "country": "IDN",
       "name": "UPI",
       "formal_name": "Universitas Pendidikan Indonesia",
-      "imgext": "",
-      "imgsource": "",
+      "imgext": "png",
+      "imgsource": "ICPC Asia Jakarta 2026 Committee (resized)",
       "verified": false,
       "synced": false
     },
@@ -375,8 +375,8 @@
       "country": "TWN",
       "name": "NTOU",
       "formal_name": "National Taiwan Ocean University",
-      "imgext": "",
-      "imgsource": "",
+      "imgext": "png",
+      "imgsource": "ICPC Asia Jakarta 2026 Committee (resized)",
       "verified": false,
       "synced": false
     },
@@ -555,8 +555,8 @@
       "country": "VNM",
       "name": "VinUni",
       "formal_name": "VinUniversity",
-      "imgext": "",
-      "imgsource": "",
+      "imgext": "png",
+      "imgsource": "ICPC Asia Jakarta 2026 Committee (resized)",
       "verified": false,
       "synced": false
     }
